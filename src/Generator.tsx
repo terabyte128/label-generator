@@ -75,6 +75,7 @@ export default function Generator() {
         />
         <Textarea
           label="Item IDs"
+          placeholder="e.g., 1-10,17,23"
           value={itemIds}
           onChange={(e) => setItemIds(e.target.value)}
         />
