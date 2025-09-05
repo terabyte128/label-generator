@@ -5,13 +5,12 @@ import {
   Group,
   NumberInput,
   Stack,
-  Text,
   Textarea,
   TextInput,
   Title,
 } from "@mantine/core";
 import { useHotkeys } from "@mantine/hooks";
-import { IconCheck, IconCommand, IconTagFilled } from "@tabler/icons-react";
+import { IconCheck, IconTagFilled } from "@tabler/icons-react";
 
 export default function Generator() {
   const [itemIds, setItemIds] = useState<string>("");
